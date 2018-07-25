@@ -1,0 +1,95 @@
+@import url("https://use.typekit.net/uam4dkl.css");
+body {
+  margin: 0;
+  padding: 0; }
+
+.firstsection {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url("/img/black-and-white-child-cute-48794.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/black-and-white-child-cute-48794.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/black-and-white-child-cute-48794.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/black-and-white-child-cute-48794.jpg");
+  background-size: cover;
+  height: 100vh; }
+  .firstsection .first_container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: 'Lato'; }
+    .firstsection .first_container .first_header {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      white-space: pre; }
+    .firstsection .first_container .first_info {
+      color: #fff;
+      font-size: 17px;
+      margin-right: 700px;
+      font-weight: 200; }
+    .firstsection .first_container .learn_more {
+      font-size: 14px;
+      font-weight: 200;
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 5px 5px; }
+
+.secondsection {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url("/img/sadparent.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/sadparent.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/sadparent.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/sadparent.jpg");
+  background-size: cover;
+  height: 100vh; }
+  .secondsection .second_container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: 'Lato'; }
+    .secondsection .second_container .second_header {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      white-space: pre; }
+    .secondsection .second_container .second_info {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 200;
+      margin-right: 700px; }
+    .secondsection .second_container .learn_more {
+      font-size: 14px;
+      font-weight: 200;
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 5px 5px; }
+
+.thirdsection {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url("/img/autumn-bridge-daylight-20900.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/autumn-bridge-daylight-20900.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/autumn-bridge-daylight-20900.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/autumn-bridge-daylight-20900.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #fff; }
+  .thirdsection .third_container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: 'lato'; }
+    .thirdsection .third_container .third_header {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      white-space: pre; }
+    .thirdsection .third_container .third_info {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 200;
+      margin-right: 700px; }
+    .thirdsection .third_container .fa-users:before {
+      font-size: 70px; }
+    .thirdsection .third_container .title {
+      font-size: 17px;
+      font-weight: 300;
+      font-family: "lato";
+      margin: 0; }
+    .thirdsection .third_container .odometer {
+      font-size: 30px; }

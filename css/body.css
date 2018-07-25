@@ -1,0 +1,34 @@
+@import url("https://use.typekit.net/uam4dkl.css");
+body {
+  margin: 0;
+  padding: 0; }
+
+.firstsection {
+  background: url("/img/city-dark-lights-8047.jpg");
+  background-size: cover;
+  height: 100vh; }
+  .firstsection .first_container {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-family: 'Lato'; }
+    .firstsection .first_container .first_header {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 700;
+      white-space: pre; }
+    .firstsection .first_container .first_info {
+      color: #fff;
+      font-size: 17px;
+      margin-right: 700px;
+      font-weight: 200; }
+    .firstsection .first_container .learn_more {
+      font-size: 14px;
+      font-weight: 200;
+      border: 1px solid #fff;
+      color: #fff;
+      padding: 5px 5px; }
+  .firstsection .secondsection {
+    background-color: orange;
+    background-size: cover;
+    height: 100vh; }
