@@ -10,6 +10,13 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/black-and-white-child-cute-48794.jpg");
   background-size: cover;
   height: 100vh; }
+  .firstsection .navbar-brand img {
+    height: 100px;
+    width: 100px; }
+  .firstsection .bg-light {
+    background-color: transparent !important; }
+  .firstsection ul .nav-link {
+    color: #fff !important; }
   .firstsection .first_container {
     position: absolute;
     top: 30%;
@@ -69,27 +76,63 @@ body {
   background-size: cover;
   height: 100vh;
   color: #fff; }
-  .thirdsection .third_container {
+  .thirdsection .raindrop {
+    height: 100vh; }
+    .thirdsection .raindrop .third_container {
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      font-family: 'lato'; }
+      .thirdsection .raindrop .third_container .third_header {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+        white-space: pre; }
+      .thirdsection .raindrop .third_container .third_info {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 200;
+        margin-right: 700px; }
+      .thirdsection .raindrop .third_container .fa-users:before {
+        font-size: 65px;
+        margin: 34px; }
+      .thirdsection .raindrop .third_container .fa-user-alt::before {
+        font-size: 65px;
+        margin: 0 34px; }
+      .thirdsection .raindrop .third_container .title {
+        font-size: 17px;
+        font-weight: 300;
+        font-family: "lato";
+        margin: 0; }
+      .thirdsection .raindrop .third_container .odometer {
+        font-size: 30px; }
+      .thirdsection .raindrop .third_container #odometer {
+        margin: 0 30px; }
+      .thirdsection .raindrop .third_container #odometer2 {
+        margin: 0 30px; }
+      .thirdsection .raindrop .third_container .title1 {
+        padding: 0 20px; }
+
+.fourthsection {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url("/img/brokenglass.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/brokenglass.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/brokenglass.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("/img/brokenglass.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #fff; }
+  .fourthsection .fourth_container {
     position: absolute;
     top: 30%;
     left: 10%;
     font-family: 'lato'; }
-    .thirdsection .third_container .third_header {
+    .fourthsection .fourth_container .fourth_header {
       color: #fff;
       font-size: 50px;
       font-weight: 700;
       white-space: pre; }
-    .thirdsection .third_container .third_info {
+    .fourthsection .fourth_container .fourth_info {
       color: #fff;
       font-size: 17px;
       font-weight: 200;
       margin-right: 700px; }
-    .thirdsection .third_container .fa-users:before {
-      font-size: 70px; }
-    .thirdsection .third_container .title {
-      font-size: 17px;
-      font-weight: 300;
-      font-family: "lato";
-      margin: 0; }
-    .thirdsection .third_container .odometer {
-      font-size: 30px; }

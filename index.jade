@@ -8,8 +8,17 @@ head
   link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous")
   link(rel="stylesheet", href="css/styles.css")
   title Nan Fresno
+header
 body
   section.firstsection#particles-js
+    nav.navbar.navbar-light.bg-light
+      a(href="#").navbar-brand
+        img(src="img/nanlogowhite.png", alt="").img-fluid
+      div
+        ul.navbar-nav
+          li.nav-item
+            //- div.justify-content-end
+            a.nav-link Log In
     div.first_container
       h1.first_header 2 MILLION CHILDERN 
         br
@@ -28,37 +37,44 @@ body
         | lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
       a.learn_more(href="#") Learn More
   section.thirdsection
-    div.third_container
-      h1.third_header Lets Save The Childern
+    div.raindrop
+      div.third_container
+        //- a.learn_more(href="#") Learn More
+        h1.third_header Lets Save The Childern
+          br
+          | and Make This Number Smaller
+      
+        p.third_info Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+          | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+          | lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+        div.counter
+          div.container
+            div.row
+              div.col-lg-3
+                i.text-center.fas.fa-users
+                br
+                p.title1 missing childern
+                div.odometer#odometer 0000
+              div.col-lg-3
+                i.text-center.fas.fa-user-alt
+                br
+                p.title2 Unidentified Persons
+                div.text-center.odometer#odometer2 0000
+  section.fourthsection
+    div.fourth_container
+      h1.fourth_header NAN Fresno Will
         br
-        | and Make This Number Smaller
-      p.third_info Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+        | Make Your Childern Feel Safe Again
+      p.fourth_info Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
         | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
         | lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-      //- a.learn_more(href="#") Learn More
-      div.counter
-        div.container
-          div.row
-            div.col-lg-3
-              i.text-center.fas.fa-users
-              br
-              p.title missing kids
-              div.odometer#odometer 0000
-            div.col-lg-3
-              i.text-center.fas.fa-users
-              br
-              p.title missing kids
-              div 0000
-            div.col-lg-3
-              i.text-center.fas.fa-users
-              br
-              p.title missing kids
-              div 0000
+          
     
 footer
   script(src="js/jquery-3.3.1.min.js")
   script(src="js/bootstrap.min.js")
   script(src="js/odometer.min.js")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js")
   script(src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js")
